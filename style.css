@@ -1,0 +1,37 @@
+
+.body{
+    background-color:rgb(70, 92, 112);
+}
+
+.answerText{
+    color: antiquewhite;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.title{
+    font-size: 100px;
+    text-align: center;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.input{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding:4px;
+    width: 500px;
+    margin-right: 20px;
+    font-size: xx-large;
+}
+
+.synonimize{
+    width: 150px;
+    border-radius: 5px;
+    padding:10px;
+    font-size: large;
+    background-color: antiquewhite;
+}
+
