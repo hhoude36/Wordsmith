@@ -16,8 +16,10 @@
 .searchBar{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 100px;
 }
+
 .input{
     background-color: antiquewhite;
     border-radius: 5px;
@@ -27,6 +29,8 @@
     font-size: xx-large;
 }
 
+
+
 .synonimize{
     width: 150px;
     border-radius: 5px;
@@ -35,3 +39,46 @@
     background-color: antiquewhite;
 }
 
+/* RESPONSIVE */
+
+
+  @media screen and (max-width: 1295px) {
+    .title {
+      font-size: 75ptpx;
+    }
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size: 65px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .input{
+        width: 500px;
+        height: 100px;
+        margin-right: 4px;
+        margin-left:4px;
+        margin-bottom: 8px;
+        font-size: large;
+    }
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    #blurb p {
+      font-size: 20px;
+      width: 400px;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    #blurb p .spanitalic {
+      font-size: 30px;
+  }
+}
